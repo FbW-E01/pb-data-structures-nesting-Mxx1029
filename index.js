@@ -18,6 +18,13 @@ for (const i of board[2]) {
     console.log(i);
 };
 
+// tip by Milad, it does the same :
+for (let i = 0; i < board.length; i++) { 
+    for (let j = 0; j < board[i].length; j++) { 
+        console.log(board[i][j]); 
+    }; 
+};
+
 // #### 2. Doggo
 // * 2.1 Create a doggo object. Add name and breed as properties of the object.
 const doggo = { firstName: "Ruru", breed: "Corgi"};
